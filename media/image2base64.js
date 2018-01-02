@@ -29,7 +29,7 @@
     }
 
     toDataURL(window.location.href, function(dataUrl) {
-        //console.log('RESULT:', dataUrl)
+        /*console.log('RESULT:', dataUrl)*/
         prompt("Copy this to the clipboard", dataUrl);
     });
 })();
