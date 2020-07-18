@@ -1,0 +1,15 @@
+/* Twitch TV styles for use with tools/extensions like Stylus etc. */
+
+.video-player__container--theatre {
+    /* Custom Video Player styles when in Theatre Mode */
+
+
+    /* Fit the player of the visible height of the window.
+       
+       Useful with for example a screen/monitor wider than 16:9 (ex. 21:9).
+       Can be used with FrankerFaceZ to set the width of the chat such that the video player + chat,
+       fills the width of the wider monitor perfectly together with the height (16:9 for the video;
+       rest of the width space for the chat)
+     */
+    min-height: 100vh!important;
+}

@@ -1,0 +1,23 @@
+/**
+  * Custom styles for the PriceSpy websites
+
+    Prisjakt.nu, Prisjagt.dk, Hintaopas.fi, Prisjakt.no,
+    leDenicheur.fr, PriceSpy.co.nz, PriceSpy.co.uk
+*/
+
+
+/* "Add-To-List" List item at a Product Page */
+.iPciUA {
+    max-width: 100vw !important;
+    /* Prevent cut off/truncated titles on larger monitors.
+       (override the max width to fill the available screen width, if/when needed).
+
+       Makes it easier to select the correct list when some lists has 
+       very similar names, like 
+         - "Christmas and Birthday Gifts for Parents"
+         - "Christmas and Birthday Gifts for Sibling"
+         - "Christmas and Birthday Gifts for Friend"
+         - "Main Gaming PC Upgrade 2020"
+         - "Main Gaming PC Upgrade 2027"
+    */
+}
