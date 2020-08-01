@@ -3,7 +3,6 @@
 .video-player__container--theatre {
     /* Custom Video Player styles when in Theatre Mode */
 
-
     /* Fit the player of the visible height of the window.
        
        Useful with for example a screen/monitor wider than 16:9 (ex. 21:9).
@@ -11,5 +10,36 @@
        fills the width of the wider monitor perfectly together with the height (16:9 for the video;
        rest of the width space for the chat)
      */
-    min-height: 100vh!important;
+    min-height: 100vh !important;
+}
+
+.hype-train-progress-bar-info-view__level-pill {
+  /* Custom styles for the Twitch Hype Train Level indicator ("LVL 4" etc.) */ 
+
+  /* Keep the whole text on the same line.
+     Useful if using a custom font (like Consolas etc.) that makes the number overflowing to the next line.
+   */
+  width: fit-content !important;
+}
+
+.stream-chat-header {
+
+  /* Make the chat header take up less space, and be less distracting */
+  zoom: 0.7; /* Make it smaller by "zooming" it out */
+  /* Increase the min. height so fhat the parent/outer element does not overflow the chat below */
+  min-height: 7rem;
+}
+
+::-webkit-scrollbar {
+
+  /* Hides the ugly white border on certain zoom levels */
+  background-color: var(--color-background-body);
+  color: var(--color-background-base);
+}
+
+.chat-input__textarea textarea {
+
+  /* Make the chat message input text area increase in height to fit longer messages */
+  height: fit-content !important;
+  max-height: 10rem !important; /* clamp the max height so that it does not cover chat */
 }
