@@ -5,12 +5,14 @@
 
     /* Fit the player of the visible height of the window.
        
-       Useful with for example a screen/monitor wider than 16:9 (ex. 21:9).
-       Can be used with FrankerFaceZ to set the width of the chat such that the video player + chat,
-       fills the width of the wider monitor perfectly together with the height (16:9 for the video;
+       Useful with for example a screen/monitor wider than 16:9 (ex. 21:9). Or when just collapsing the chat view
+       to make it fill all the monitor with maximised/border-less window (easy access to the chat etc.)
+       
+       Can also be used with FrankerFaceZ to set the width of the chat such that the video player + chat,
+       so that it fills the width of the wider monitor perfectly together with the height (16:9 for the video;
        rest of the width space for the chat)
      */
-    min-height: 100vh !important;
+    height: 100vh !important;
 }
 
 .hype-train-progress-bar-info-view__level-pill {
